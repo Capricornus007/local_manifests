@@ -11,19 +11,19 @@
 
 
     <!-- device tree -->
-    <project path="device/realme/rivena" name="android_device_realme_rivena" revision="lineage-23.2" remote="RMX3366_github" />
+    <project path="device/realme/rivena" name="android_device_realme_rivena" remote="capri_github" revision="lineage-24.0" />
 
     <!-- common tree -->
-    <project path="device/oppo/sm8250-common" name="android_device_oppo_sm8250-common" revision="lineage-23.2" remote="RMX3366_github" />
+    <project path="device/oppo/sm8250-common" name="android_device_oppo_sm8250-common" remote="capri_github" revision="lineage-24.0" />
 
     <!-- ktree, thanks big bro @bijoyv9 -->
-    <project path="kernel/oppo/sm8250" name="android_kernel_oppo_sm8250" revision="lineage-23.2" remote="RMX3366_github" />
+    <project path="kernel/oppo/sm8250" name="android_kernel_oppo_sm8250" remote="capri_github" revision="lineage-24.0" />
 
     <!-- hardware/oplus -->
-    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-23.2" remote="RMX3366_github" />
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="lineage_github" revision="lineage-24.0" />
 
     <!-- hardware/dolby -->
-    <project path="hardware/dolby" name="android_hardware_dolby" revision="16" remote="RMX3366_github" />
+    <project path="hardware/dolby" name="android_hardware_dolby" remote="RMX3366_github" revision="16" />
 
     <!-- vendor device -->
     <project path="vendor/realme/rivena" name="proprietary_vendor_realme_rivena" revision="lineage-23.2" remote="RMX3366_gitlab" />
