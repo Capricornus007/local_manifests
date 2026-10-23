@@ -9,6 +9,12 @@
     <remote name="ermyltsor_gitlab" 
         fetch="https://gitlab.com/ermyltsor" />
 
+    <remote name="capri_github" 
+        fetch="https://github.com/Capricornus007" />
+
+    <remote name="lineage_github" 
+        fetch="https://github.com/LineageOS" />
+
 
     <!-- device tree -->
     <project path="device/realme/rivena" name="android_device_realme_rivena" remote="capri_github" revision="lineage-24.0" />
