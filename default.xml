@@ -26,8 +26,9 @@
     <project path="kernel/oppo/sm8250" name="android_kernel_oppo_sm8250" remote="capri_github" revision="lineage-24.0" />
 
     <!-- hardware/oplus -->
-    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage_github" revision="lineage-24.0" />
-  <project path="hardware/oplus" name="android_hardware_oplus" remote="lineage_github" revision="lineage-24.0" />
+    <!-- device/lineage/sepolicy 已由 LineageOS 24.0 的 snippets/lineage.xml 提供；
+         在這裡重掛會造成 repo manifest 的 duplicate path 錯誤（2026-10-28 實測）。 -->
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="lineage_github" revision="lineage-24.0" />
 
     <!-- hardware/dolby -->
     <project path="hardware/dolby" name="android_hardware_dolby" remote="RMX3366_github" revision="16" />
